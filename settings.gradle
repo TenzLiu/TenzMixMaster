@@ -1,2 +1,2 @@
-include ':app', ':baselib', ':tenzdatabinding'
+include ':app', ':baselib', ':tenzdatabinding', ':tenzlifecycles'
 rootProject.name='TenzMixMaster'

@@ -6,7 +6,7 @@ import androidx.databinding.Bindable;
 public class User extends BaseObservable {
 
     private String name;
-    private String avator;
+    private String avatar;
     private String sex;
     private int age;
 
@@ -20,12 +20,12 @@ public class User extends BaseObservable {
     }
 
     @Bindable
-    public String getAvator() {
-        return avator;
+    public String getAvatar() {
+        return avatar;
     }
 
-    public void setAvator(String avator) {
-        this.avator = avator;
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
     }
 
     @Bindable
